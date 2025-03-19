@@ -1,7 +1,11 @@
 # Add Two Numbers in Python
 # Author: Your Name
-# Using user input
-a = input("First number: ")
-b = input("Second number: ")
-res = float(a) + float(b)
+# Using a function
+def add(a, b):
+    result = float(a) + float(b)
+    return result
+a = input("First Number: ")
+b = input("Second Number: ")
+res = add(a, b)
+print("The Answer is:")
 print(res)
